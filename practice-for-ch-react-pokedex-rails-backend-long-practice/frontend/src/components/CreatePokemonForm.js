@@ -38,17 +38,17 @@ const CreatePokemonForm = ({ hideForm }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // const payload = {
-    //   number,
-    //   attack,
-    //   defense,
-    //   imageUrl,
-    //   name,
-    //   type,
-    //   move1,
-    //   move2,
-    //   moves: [move1, move2]
-    // };
+    const payload = {
+      number,
+      attack,
+      defense,
+      imageUrl,
+      name,
+      type,
+      move1,
+      move2,
+      moves: [move1, move2]
+    };
 
     let createdPokemon;
     if (createdPokemon) {
