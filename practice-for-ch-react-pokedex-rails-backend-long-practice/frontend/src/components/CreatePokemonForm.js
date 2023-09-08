@@ -50,6 +50,9 @@ const CreatePokemonForm = ({ hideForm }) => {
       moves: [move1, move2]
     };
 
+
+    // need a dispatch in here 
+
     let createdPokemon;
     if (createdPokemon) {
       history.push(`/pokemon/${createdPokemon.id}`);
